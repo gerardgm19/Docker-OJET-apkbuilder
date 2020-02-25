@@ -7,6 +7,7 @@ APK build at /usr/src/app/hybrid/platforms/android/app/build/outputs/apk/debug/a
 Commands to run the apk builder:
 
 docker build -t build-name .
+
 docker run -it -v (local folder):/usr/src/app/apk build-name /usr/src/app/copyAPK.sh
 
 # After run
